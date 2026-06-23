@@ -17,7 +17,7 @@
 - Итоговые выводы и рекомендации заказчику.     
 
 ## Технологии
-Python, Pandas, NumPy, NLTK, SpaCy, Scikit-learn, TF-IDF, LightGBM, GridSearchCV, Matplotlib, Seaborn.
+Python, Pandas, NumPy, SpaCy, Scikit-learn, TF-IDF, LightGBM, GridSearchCV, Matplotlib, Seaborn.
 
 ## Ключевые результаты
 - Построены и сравнены несколько моделей классификации текста.
