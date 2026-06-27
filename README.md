@@ -1,26 +1,26 @@
-# Проект: Определение токсичных комментариев
+# Project: Toxic Comments Classification
 
-## Описание
-Проект посвящён разработке инструмента для автоматического выявления токсичных комментариев пользователей интернет-магазина. Решение позволяет направлять нежелательные сообщения на модерацию и повышать качество коммуникации на платформе.
+## Description
+This project focuses on building a tool for automatic detection of toxic comments on an e-commerce platform. The solution enables routing unwanted messages to moderation and improving the overall quality of communication on the platform.
 
-## Цель исследования
-Построить модель машинного обучения для классификации комментариев на токсичные и нетоксичные, обеспечив высокое качество определения токсичного контента.
+## Goal
+Build a machine learning model to classify comments as toxic or non-toxic, achieving high performance on toxic content detection.
 
-## Ход исследования
-- Предобработка текста: очистка, лемматизация и проверка данных на пропуски и дубликаты.
-- Исследовательский анализ данных (EDA): анализ баланса классов и частотный анализ слов.
-- Векторизация текстов с помощью TF-IDF.
-- Моделирование:
-   - Обучение и сравнение моделей Logistic Regression, Complement Naive Bayes и LightGBM.
-   - Подбор гиперпараметров с использованием GridSearchCV.
-   - Оценка качества моделей по метрике F1-score и выбор лучшей модели.
-- Итоговые выводы и рекомендации заказчику.     
+## Workflow
+- Text preprocessing: cleaning, lemmatization, duplicate and missing value checks
+- Exploratory Data Analysis (EDA): class balance analysis and word frequency analysis
+- Text vectorization using TF-IDF
+- Modeling:
+   - Training and comparing Logistic Regression, Complement Naive Bayes, and LightGBM models
+   - Hyperparameter tuning with GridSearchCV
+   - Model evaluation using F1-score and selection of the best model
+- Conclusions and recommendations
 
-## Технологии
-Python, Pandas, NumPy, SpaCy, Scikit-learn, TF-IDF, LightGBM, GridSearchCV, Matplotlib, Seaborn.
+## Technologies
+Python, Pandas, NumPy, SpaCy, Scikit-learn, TF-IDF, LightGBM, GridSearchCV, Matplotlib, Seaborn
 
-## Ключевые результаты
-- Построены и сравнены несколько моделей классификации текста.
-- Лучший результат показала модель Logistic Regression с TF-IDF-векторизацией.
-- Значение F1-score = 0.76, что превышает требуемый порог качества (0.75).
-- Разработана модель, способная автоматически выявлять токсичные комментарии и использоваться в системе модерации контента.
+## Key Results
+- Built and compared multiple text classification models
+- Best performance achieved with Logistic Regression + TF-IDF vectorization
+- F1-score = 0.76, exceeding the required threshold of 0.75
+- Developed a model applicable to automated content moderation systems
